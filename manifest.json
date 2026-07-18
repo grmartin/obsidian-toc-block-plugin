@@ -3,7 +3,7 @@
 	"name": "TOC Block",
 	"version": "1.0.0",
 	"minAppVersion": "1.1.0",
-	"description": "Type a Typora-style [TOC] tag — or your own regex patterns, even a code-fence marker — anywhere in a note to render a live table of contents built from its headings. Choose to show it as links or hide it in Live Preview. Insert it via the command palette or right-click menu, and it stays in sync as headings change, with real links in Reading View.",
+	"description": "Renders a live table of contents wherever you type a Typora-style [TOC] tag (or your own regex pattern). Insert it via command or right-click menu, show it as links or hide it in Live Preview, and get real clickable heading links in Reading View.",
 	"author": "Glenn R. Martin",
 	"isDesktopOnly": false
 }
