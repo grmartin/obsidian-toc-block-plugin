@@ -1,0 +1,30 @@
+{
+	"name": "toc-block",
+	"version": "1.0.0",
+	"description": "Type a Typora-style [TOC] tag — or your own regex patterns, even a code-fence marker — anywhere in a note to render a live table of contents built from its headings. Choose to show it as links or hide it in Live Preview. Insert it via the command palette or right-click menu, and it stays in sync as headings change, with real links in Reading View.",
+	"author": "Glenn R. Martin",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json",
+		"lint": "eslint ."
+	},
+	"keywords": ["obsidian", "obsidian-plugin", "toc", "table-of-contents"],
+	"license": "MIT",
+	"devDependencies": {
+		"@codemirror/state": "^6.5.0",
+		"@codemirror/view": "^6.38.0",
+		"@eslint/js": "^9.39.4",
+		"@types/node": "^22.15.17",
+		"esbuild": "0.25.5",
+		"eslint": "^9.39.4",
+		"eslint-plugin-obsidianmd": "^0.4.0",
+		"globals": "^17.6.0",
+		"jiti": "^2.6.1",
+		"obsidian": "latest",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.59.1"
+	}
+}

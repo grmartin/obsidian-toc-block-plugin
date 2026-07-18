@@ -1,0 +1,21 @@
+.toc-block-hidden {
+	display: none;
+}
+
+.toc-block-placeholder {
+	padding: var(--size-4-2) var(--size-4-3);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.toc-block-empty {
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+.toc-block-list,
+.toc-block-live-preview ul {
+	margin: 0;
+}
